@@ -79,7 +79,7 @@
 //#define TALLBEAR
 
 // SuperPINDA present?
-//#define SUPERPINDA
+#define SUPERPINDA
 
 // @section machine
 
@@ -730,10 +730,10 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    // Original Prusa i3 MK3/S
-    #define DEFAULT_Kp  16.13
-    #define DEFAULT_Ki   1.1625
-    #define DEFAULT_Kd  56.23
+    // Original Prusa i3 MK3/S //Kp: 26.27 Ki: 1.46 Kd: 117.82
+    #define DEFAULT_Kp  26.27
+    #define DEFAULT_Ki   1.46
+    #define DEFAULT_Kd  117.82
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
@@ -2869,7 +2869,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-#define SPEAKER
+#define SPEAKER 0
 
 //
 // The duration and frequency for the UI feedback sound.
