@@ -2407,8 +2407,8 @@
  * - Allows Z homing only when XY positions are known and trusted.
  * - If stepper drivers sleep, XY homing may be required again before Z homing.
  */
-#define Z_SAFE_HOMING
-
+// #define Z_SAFE_HOMING
+#define NO_Z_SAFE_HOMING_WARNING
 #if ENABLED(Z_SAFE_HOMING)
   #define Z_SAFE_HOMING_X_POINT 0  // (mm) X point for Z homing
   #define Z_SAFE_HOMING_Y_POINT 0  // (mm) Y point for Z homing
