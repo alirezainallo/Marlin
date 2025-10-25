@@ -20,8 +20,9 @@
  *
  */
 #pragma once
-#error "Don't build with import-2.1.x configurations!"
-#error "Use the 'bugfix...' or 'release...' configurations matching your Marlin version."
+#define CONFIG_EXAMPLES_DIR "Prusa/MK3"
+// #error "Don't build with import-2.1.x configurations!"
+// #error "Use the 'bugfix...' or 'release...' configurations matching your Marlin version."
 
 /**
  * Configuration.h
@@ -79,7 +80,7 @@
 //#define TALLBEAR
 
 // SuperPINDA present?
-//#define SUPERPINDA
+#define SUPERPINDA
 
 // @section machine
 
@@ -2913,7 +2914,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-#define SPEAKER
+// #define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
