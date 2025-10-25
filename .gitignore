@@ -177,3 +177,7 @@ tags
 .aider*
 !.aiderignore
 .env
+
+
+# Me
+.vscode/
