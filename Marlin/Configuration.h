@@ -1214,6 +1214,8 @@
 //============================== Endstop Settings ===========================
 //===========================================================================
 
+#define ENDSTOPS_ALWAYS_ON_DEFAULT
+
 // @section endstops
 
 // Enable pullup for all endstops to prevent a floating state
